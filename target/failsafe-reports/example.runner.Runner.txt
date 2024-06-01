@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: example.runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in example.runner.Runner
+example.runner.Runner.initializationError  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class io.cucumber.junit.JUnitCucumberOptionsProvider$JunitCucumberOptions does not define or inherit an implementation of the resolved method 'abstract java.lang.String[] tags()' of interface io.cucumber.core.options.CucumberOptionsAnnotationParser$CucumberOptions.
+

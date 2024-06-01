@@ -1,0 +1,509 @@
+2024-05-31 20:38:36.995 [main] WARN  i.c.junit.CucumberSerenityRunner - By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+2024-05-31 20:38:37.508 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:38:37.690 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:38:37.692 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:38:37.723 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:38:37.724 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:38:37.724 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:38:37.724 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:38:37.725 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:38:37.725 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:38:37.725 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:38:37.725 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:38:38.351 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:38:38.413 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:38:38.413 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:38:38.414 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:38:38.414 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:38:38.418 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:38:38.418 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:38:38.419 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:38:38.419 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:38:38.419 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:38:38.419 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:38:38.431 [main] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+2024-05-31 20:38:38.439 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@2874659d
+2024-05-31 20:38:38.510 [main] WARN  c.e.r.service.ReportPortal - Base url for Report Portal server is not set!
+2024-05-31 20:38:38.843 [main] DEBUG c.g.i.r.i.ReportLaunchProvider - Report Portal communication is engaged
+2024-05-31 20:38:38.898 [main] DEBUG n.thucydides.core.steps.StepEventBus - Registering custom listener com.github.invictum.reportportal.ReportPortalListener@46678e49
+2024-05-31 20:38:38.901 [main] INFO   - Test Suite Started: AAA
+2024-05-31 20:38:39.300 [main] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+AA(aaa;aa)
+-------------------------------------------------------------------
+2024-05-31 20:38:39.403 [main] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature AAA
+2024-05-31 20:38:39.497 [main] INFO   -    * Given I call Order Api
+2024-05-31 20:38:39.525 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:38:39.545 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:38:39.546 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:38:39.547 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:38:39.547 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:38:39.547 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:38:39.547 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:38:39.547 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:38:39.547 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:38:39.547 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:38:39.547 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:38:44.764 [main] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+AA
+----------------------------------------------------------------------------
+2024-05-31 20:38:44.826 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+2024-05-31 20:38:44.917 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+2024-05-31 20:38:44.934 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@5724c7da
+2024-05-31 20:38:44.935 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome AAA:AA
+2024-05-31 20:38:44.936 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5724c7da: Generating report for test outcome: AAA:AA
+2024-05-31 20:38:44.951 [pool-3-thread-1] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for AA to file D:\PersionalCode\SerenityApi\target\serenity-reports\249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d.json (using temp file D:\PersionalCode\SerenityApi\target\serenity-reports\249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d.jsone91a323a-852d-4ad7-85b7-e50f32b3e93e)
+2024-05-31 20:38:45.134 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome AAA:AA done
+2024-05-31 20:38:45.134 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+2024-05-31 20:38:45.135 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 201 ms
+2024-05-31 20:38:45.135 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@35841d6
+2024-05-31 20:38:45.144 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome AAA:AA
+2024-05-31 20:38:45.144 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@35841d6: Generating report for test outcome: AAA:AA
+2024-05-31 20:38:45.145 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR AA in 249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d
+2024-05-31 20:38:45.177 [pool-4-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature AAA
+2024-05-31 20:38:45.179 [pool-4-thread-1] DEBUG n.t.c.r.RequirementsTagProvider -  found:[Requirement{name='AAA', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:38:45.186 [pool-4-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome AA-[]: Optional[Requirement{name='AAA', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:38:45.201 [pool-4-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome AA-[]: Optional[Requirement{name='AAA', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:38:45.371 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR AAA:AA in 249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d.html in directory target\serenity-reports  
+2024-05-31 20:38:46.481 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generating report in 249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d.html
+2024-05-31 20:38:47.049 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generated report 249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d.html in 568 ms
+2024-05-31 20:38:47.049 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome AAA:AA done
+2024-05-31 20:38:47.049 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+2024-05-31 20:38:47.049 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 1914 ms
+2024-05-31 20:39:54.106 [main] WARN  i.c.junit.CucumberSerenityRunner - By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+2024-05-31 20:39:55.111 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:39:55.451 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:39:55.454 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:39:55.480 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:39:55.506 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:39:55.506 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:39:55.506 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:39:55.507 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:39:55.507 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:39:55.508 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:39:55.508 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:39:56.422 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:39:56.529 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:39:56.529 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:39:56.533 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:39:56.533 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:39:56.533 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:39:56.533 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:39:56.534 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:39:56.535 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:39:56.535 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:39:56.535 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:39:56.582 [main] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+2024-05-31 20:39:56.596 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@2874659d
+2024-05-31 20:39:56.814 [main] WARN  c.e.r.service.ReportPortal - Base url for Report Portal server is not set!
+2024-05-31 20:39:57.850 [main] DEBUG c.g.i.r.i.ReportLaunchProvider - Report Portal communication is engaged
+2024-05-31 20:39:58.323 [main] DEBUG n.thucydides.core.steps.StepEventBus - Registering custom listener com.github.invictum.reportportal.ReportPortalListener@776802b0
+2024-05-31 20:39:58.328 [main] INFO   - Test Suite Started: AAA
+2024-05-31 20:39:58.923 [main] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+AA(aaa;aa)
+-------------------------------------------------------------------
+2024-05-31 20:39:59.100 [main] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature AAA
+2024-05-31 20:39:59.206 [main] INFO   -    * Given I call Order Api
+2024-05-31 20:39:59.226 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:39:59.268 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:39:59.268 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:39:59.269 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:39:59.271 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:39:59.272 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:39:59.272 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:39:59.272 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:39:59.272 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:39:59.272 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:39:59.272 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:40:05.655 [main] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+AA
+----------------------------------------------------------------------------
+2024-05-31 20:40:05.858 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+2024-05-31 20:40:06.134 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+2024-05-31 20:40:06.174 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@7252bdb
+2024-05-31 20:40:06.184 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome AAA:AA
+2024-05-31 20:40:06.184 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7252bdb: Generating report for test outcome: AAA:AA
+2024-05-31 20:40:06.200 [pool-3-thread-1] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for AA to file D:\PersionalCode\SerenityApi\target\serenity-reports\249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d.json (using temp file D:\PersionalCode\SerenityApi\target\serenity-reports\249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d.json6020ac4d-14db-49d6-ae80-d601f3adbefc)
+2024-05-31 20:40:06.303 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome AAA:AA done
+2024-05-31 20:40:06.303 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+2024-05-31 20:40:06.304 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 130 ms
+2024-05-31 20:40:06.304 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@c0004b7
+2024-05-31 20:40:06.309 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome AAA:AA
+2024-05-31 20:40:06.309 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@c0004b7: Generating report for test outcome: AAA:AA
+2024-05-31 20:40:06.310 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR AA in 249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d
+2024-05-31 20:40:06.334 [pool-4-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature AAA
+2024-05-31 20:40:06.335 [pool-4-thread-1] DEBUG n.t.c.r.RequirementsTagProvider -  found:[Requirement{name='AAA', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:40:06.343 [pool-4-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome AA-[]: Optional[Requirement{name='AAA', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:40:06.346 [pool-4-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome AA-[]: Optional[Requirement{name='AAA', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:40:06.678 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR AAA:AA in 249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d.html in directory target\serenity-reports  
+2024-05-31 20:40:06.681 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generating report in 249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d.html
+2024-05-31 20:40:07.478 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generated report 249388f1e3646954b15dd0d1f167b424a7ef0c072d58082789c0c7cbe0356c2d.html in 797 ms
+2024-05-31 20:40:07.479 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome AAA:AA done
+2024-05-31 20:40:07.479 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+2024-05-31 20:40:07.479 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 1175 ms
+2024-05-31 20:42:54.049 [main] WARN  i.c.junit.CucumberSerenityRunner - By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+2024-05-31 20:42:55.132 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:42:55.458 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:42:55.465 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:42:55.486 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:42:55.486 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:42:55.486 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:42:55.486 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:42:55.486 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:42:55.487 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:42:55.487 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:42:55.487 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:42:56.468 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:42:56.508 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:42:56.509 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:42:56.510 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:42:56.511 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:42:56.511 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:42:56.511 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:42:56.511 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:42:56.512 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:42:56.512 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:42:56.512 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:42:56.522 [main] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+2024-05-31 20:42:56.528 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@ec263830
+2024-05-31 20:42:56.904 [main] WARN  c.e.r.service.ReportPortal - Base url for Report Portal server is not set!
+2024-05-31 20:42:57.647 [main] DEBUG c.g.i.r.i.ReportLaunchProvider - Report Portal communication is engaged
+2024-05-31 20:42:57.711 [main] DEBUG n.thucydides.core.steps.StepEventBus - Registering custom listener com.github.invictum.reportportal.ReportPortalListener@2f61f937
+2024-05-31 20:42:57.717 [main] INFO   - Test Suite Started: Order
+2024-05-31 20:42:58.125 [main] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Example(order;example)
+-------------------------------------------------------------------
+2024-05-31 20:42:58.241 [main] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Order
+2024-05-31 20:42:58.340 [main] INFO   -    * Given I call Order Api
+2024-05-31 20:42:58.355 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:42:58.395 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:42:58.395 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:42:58.396 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:42:58.397 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:42:58.397 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:42:58.397 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:42:58.398 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:42:58.398 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:42:58.398 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:42:58.398 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:43:05.404 [main] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Example
+----------------------------------------------------------------------------
+2024-05-31 20:43:05.454 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+2024-05-31 20:43:05.583 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+2024-05-31 20:43:05.660 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@7be62956
+2024-05-31 20:43:05.710 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example
+2024-05-31 20:43:05.711 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7be62956: Generating report for test outcome: Order:Example
+2024-05-31 20:43:05.722 [pool-3-thread-1] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for Example to file D:\PersionalCode\SerenityApi\target\serenity-reports\09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.json (using temp file D:\PersionalCode\SerenityApi\target\serenity-reports\09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.json797e10a3-90f6-44db-be06-1c6243ea31ec)
+2024-05-31 20:43:05.796 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example done
+2024-05-31 20:43:05.796 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+2024-05-31 20:43:05.797 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 136 ms
+2024-05-31 20:43:05.797 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@13137835
+2024-05-31 20:43:05.797 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example
+2024-05-31 20:43:05.797 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@13137835: Generating report for test outcome: Order:Example
+2024-05-31 20:43:05.798 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Example in 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73
+2024-05-31 20:43:05.819 [pool-4-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Order
+2024-05-31 20:43:05.820 [pool-4-thread-1] DEBUG n.t.c.r.RequirementsTagProvider -  found:[Requirement{name='Order', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:43:05.828 [pool-4-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Example-[]: Optional[Requirement{name='Order', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:43:05.830 [pool-4-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Example-[]: Optional[Requirement{name='Order', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:43:05.959 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Order:Example in 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.html in directory target\serenity-reports  
+2024-05-31 20:43:05.964 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generating report in 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.html
+2024-05-31 20:43:06.542 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generated report 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.html in 578 ms
+2024-05-31 20:43:06.543 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example done
+2024-05-31 20:43:06.543 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+2024-05-31 20:43:06.543 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 746 ms
+2024-05-31 20:56:53.380 [main] WARN  i.c.junit.CucumberSerenityRunner - By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+2024-05-31 20:56:53.883 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:56:54.134 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:56:54.136 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:56:54.164 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:56:54.164 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:56:54.164 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:56:54.164 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:56:54.164 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:56:54.164 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:56:54.164 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:56:54.164 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:56:54.584 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:56:54.631 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:56:54.631 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:56:54.632 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:56:54.632 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:56:54.633 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:56:54.633 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:56:54.637 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:56:54.637 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:56:54.637 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:56:54.637 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:56:54.645 [main] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+2024-05-31 20:56:54.649 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@ec263830
+2024-05-31 20:56:54.704 [main] WARN  c.e.r.service.ReportPortal - Base url for Report Portal server is not set!
+2024-05-31 20:56:54.965 [main] DEBUG c.g.i.r.i.ReportLaunchProvider - Report Portal communication is engaged
+2024-05-31 20:56:55.019 [main] DEBUG n.thucydides.core.steps.StepEventBus - Registering custom listener com.github.invictum.reportportal.ReportPortalListener@4a68135e
+2024-05-31 20:56:55.023 [main] INFO   - Test Suite Started: Order
+2024-05-31 20:56:55.278 [main] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Example(order;example)
+-------------------------------------------------------------------
+2024-05-31 20:56:55.367 [main] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Order
+2024-05-31 20:56:55.448 [main] INFO   -    * Given I call Order Api
+2024-05-31 20:56:55.472 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:56:55.498 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:56:55.498 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 20:56:55.499 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 20:56:55.500 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 20:56:55.500 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 20:56:55.500 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 20:56:55.500 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 20:56:55.500 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 20:56:55.500 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 20:56:55.500 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 20:56:56.894 [main] INFO  example.core.BaseService - io.restassured.internal.RequestSpecificationImpl@7f42b194
+2024-05-31 20:56:56.894 [main] INFO  example.core.BaseService - POST
+2024-05-31 20:56:59.431 [main] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Example
+----------------------------------------------------------------------------
+2024-05-31 20:56:59.469 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+2024-05-31 20:56:59.562 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+2024-05-31 20:56:59.580 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@2e8986b6
+2024-05-31 20:56:59.582 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example
+2024-05-31 20:56:59.583 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@2e8986b6: Generating report for test outcome: Order:Example
+2024-05-31 20:56:59.591 [pool-3-thread-1] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for Example to file D:\PersionalCode\SerenityApi\target\serenity-reports\09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.json (using temp file D:\PersionalCode\SerenityApi\target\serenity-reports\09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.jsonc5f67841-ea11-4edc-92cf-a2bb44a7f8b4)
+2024-05-31 20:56:59.680 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example done
+2024-05-31 20:56:59.680 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+2024-05-31 20:56:59.680 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 99 ms
+2024-05-31 20:56:59.680 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2fa47368
+2024-05-31 20:56:59.686 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example
+2024-05-31 20:56:59.687 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2fa47368: Generating report for test outcome: Order:Example
+2024-05-31 20:56:59.687 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Example in 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73
+2024-05-31 20:56:59.714 [pool-4-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Order
+2024-05-31 20:56:59.715 [pool-4-thread-1] DEBUG n.t.c.r.RequirementsTagProvider -  found:[Requirement{name='Order', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:56:59.725 [pool-4-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Example-[]: Optional[Requirement{name='Order', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:56:59.729 [pool-4-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Example-[]: Optional[Requirement{name='Order', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 20:56:59.839 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Order:Example in 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.html in directory target\serenity-reports  
+2024-05-31 20:56:59.845 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generating report in 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.html
+2024-05-31 20:57:00.480 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generated report 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.html in 635 ms
+2024-05-31 20:57:00.481 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example done
+2024-05-31 20:57:00.481 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+2024-05-31 20:57:00.481 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 801 ms
+2024-05-31 21:04:04.104 [main] WARN  i.c.junit.CucumberSerenityRunner - By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+2024-05-31 21:04:04.659 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 21:04:04.808 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 21:04:04.808 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 21:04:04.837 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 21:04:04.837 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 21:04:04.837 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 21:04:04.837 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 21:04:04.837 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 21:04:04.837 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 21:04:04.837 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 21:04:04.837 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 21:04:05.324 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 21:04:05.379 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 21:04:05.379 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 21:04:05.380 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 21:04:05.380 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 21:04:05.380 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 21:04:05.380 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 21:04:05.380 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 21:04:05.380 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 21:04:05.380 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 21:04:05.380 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 21:04:05.388 [main] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+2024-05-31 21:04:05.392 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@ec263830
+2024-05-31 21:04:05.462 [main] WARN  c.e.r.service.ReportPortal - Base url for Report Portal server is not set!
+2024-05-31 21:04:05.820 [main] DEBUG c.g.i.r.i.ReportLaunchProvider - Report Portal communication is engaged
+2024-05-31 21:04:05.922 [main] DEBUG n.thucydides.core.steps.StepEventBus - Registering custom listener com.github.invictum.reportportal.ReportPortalListener@63fdffcd
+2024-05-31 21:04:05.927 [main] INFO   - Test Suite Started: Order
+2024-05-31 21:04:06.168 [main] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Example(order;example)
+-------------------------------------------------------------------
+2024-05-31 21:04:06.245 [main] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Order
+2024-05-31 21:04:06.337 [main] INFO   -    * Given I call Order Api
+2024-05-31 21:04:06.344 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 21:04:06.373 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 21:04:06.373 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\PersionalCode\SerenityApi\serenity.properties 
+2024-05-31 21:04:06.374 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=dev
+2024-05-31 21:04:06.374 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+2024-05-31 21:04:06.374 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=target/serenity-reports
+2024-05-31 21:04:06.375 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+2024-05-31 21:04:06.375 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.staging.service.appUrl=https://staging.api.example.com
+2024-05-31 21:04:06.375 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.production.service.appUrl=https://api.example.com
+2024-05-31 21:04:06.375 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.service.appUrl=https://api.example.com
+2024-05-31 21:04:06.375 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.dev.service.appUrl=https://api-m.sandbox.paypal.com
+2024-05-31 21:04:07.884 [main] INFO  example.core.BaseService - io.restassured.internal.RequestSpecificationImpl@713999c2
+2024-05-31 21:04:07.884 [main] INFO  example.core.BaseService - POST
+2024-05-31 21:04:10.176 [main] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Example
+----------------------------------------------------------------------------
+2024-05-31 21:04:10.202 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+2024-05-31 21:04:10.283 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+2024-05-31 21:04:10.299 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@2986427e
+2024-05-31 21:04:10.301 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example
+2024-05-31 21:04:10.302 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@2986427e: Generating report for test outcome: Order:Example
+2024-05-31 21:04:10.315 [pool-3-thread-1] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for Example to file D:\PersionalCode\SerenityApi\target\serenity-reports\09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.json (using temp file D:\PersionalCode\SerenityApi\target\serenity-reports\09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.jsonbf1ba030-e726-4ac4-afe9-7905ddb72eec)
+2024-05-31 21:04:10.351 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example done
+2024-05-31 21:04:10.351 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+2024-05-31 21:04:10.351 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 51 ms
+2024-05-31 21:04:10.351 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@4552f905
+2024-05-31 21:04:10.352 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example
+2024-05-31 21:04:10.353 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@4552f905: Generating report for test outcome: Order:Example
+2024-05-31 21:04:10.353 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Example in 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73
+2024-05-31 21:04:10.372 [pool-4-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Order
+2024-05-31 21:04:10.377 [pool-4-thread-1] DEBUG n.t.c.r.RequirementsTagProvider -  found:[Requirement{name='Order', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 21:04:10.386 [pool-4-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Example-[]: Optional[Requirement{name='Order', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 21:04:10.390 [pool-4-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome Example-[]: Optional[Requirement{name='Order', type='feature' parent = 'null', cardNumber='null'}]
+2024-05-31 21:04:10.533 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Order:Example in 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.html in directory target\serenity-reports  
+2024-05-31 21:04:10.539 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generating report in 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.html
+2024-05-31 21:04:11.059 [pool-4-thread-1] DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter - Generated report 09225b417e42921d91d2e076f6f6fa8901122f501630ab47156589943d06be73.html in 520 ms
+2024-05-31 21:04:11.060 [pool-4-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Order:Example done
+2024-05-31 21:04:11.062 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+2024-05-31 21:04:11.062 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 711 ms
