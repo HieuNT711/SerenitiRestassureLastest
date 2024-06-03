@@ -1,15 +1,17 @@
 package example.runner;
 
+import org.testng.annotations.Test;
 import org.testng.TestNG;
-import org.testng.xml.XmlClass;
 import org.testng.xml.XmlSuite;
 import org.testng.xml.XmlTest;
+import org.testng.xml.XmlClass;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ParallelRunner {
-    public static void main(String[] args) {
+public class ParallelRunnerXML {
+    @Test
+    public void runTests() {
         // Create a TestNG instance
         TestNG testng = new TestNG();
 
@@ -31,7 +33,6 @@ public class ParallelRunner {
         List<XmlClass> classes2 = new ArrayList<>();
         classes2.add(new XmlClass("example.runner.RunnerTestNG2"));
         test2.setXmlClasses(classes2);
-//        D:\PersionalCode\SerenityApi\src\test\java\example\runner\Runner.java
 
         // Add the suite to the list of suites to run
         List<XmlSuite> suites = new ArrayList<>();
