@@ -12,8 +12,10 @@
         <serenity.version>2.2.9</serenity.version>
         <serenity.cucumber.version>2.2.5</serenity.cucumber.version>
         <cucumber.version>5.6.0</cucumber.version>
+        <testng.version>7.10.1</testng.version>
         <maven.version>3.0.0-M4</maven.version>
         <hoverfly.version>0.14.1</hoverfly.version>
+        <testng.version>7.10.1</testng.version>
         <clean.folder.path>target/site</clean.folder.path>
         <runner>Runner</runner>
     </properties>
@@ -208,6 +210,19 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>${cucumber.version}</version>
         </dependency>
     </dependencies>
     <build>
